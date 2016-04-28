@@ -1210,3 +1210,175 @@ _shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needF
  2016-04-28 14:21:34,272 [P59784/D2/T129] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Learn' with Id '1064' has been published.
  2016-04-28 14:21:38,375 [P59784/D2/T126] INFO  umbraco.content - Save Xml to file...
  2016-04-28 14:21:38,408 [P59784/D2/T110] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 17:18:40,572 [P84884/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.4.3 application starting on PIL
+ 2016-04-28 17:18:40,641 [P84884/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-04-28 17:18:40,663 [P84884/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 22ms)
+ 2016-04-28 17:18:40,812 [P84884/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-04-28 17:18:41,293 [P84884/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 480ms)
+ 2016-04-28 17:18:41,324 [P84884/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-04-28 17:18:41,332 [P84884/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+ 2016-04-28 17:18:41,333 [P84884/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-04-28 17:18:41,343 [P84884/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 10ms)
+ 2016-04-28 17:18:41,375 [P84884/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-04-28 17:18:41,385 [P84884/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 10ms)
+ 2016-04-28 17:18:41,386 [P84884/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-04-28 17:18:41,396 [P84884/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 9ms)
+ 2016-04-28 17:18:41,476 [P84884/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-04-28 17:18:41,484 [P84884/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 8ms)
+ 2016-04-28 17:18:41,485 [P84884/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-04-28 17:18:41,495 [P84884/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 9ms)
+ 2016-04-28 17:18:43,952 [P84884/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-04-28 17:18:44,638 [P84884/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-04-28 17:18:44,723 [P84884/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-04-28 17:18:44,869 [P84884/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-04-28 17:18:44,912 [P84884/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-04-28 17:18:45,085 [P84884/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-04-28 17:18:45,111 [P84884/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4699ms)
+ 2016-04-28 17:18:47,190 [P84884/D2/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:58906/umbraco (UmbracoModule request)
+ 2016-04-28 17:18:47,729 [P84884/D2/T6] INFO  umbraco.content - Load Xml from file...
+ 2016-04-28 17:18:47,733 [P84884/D2/T6] INFO  umbraco.content - Loaded Xml from file.
+ 2016-04-28 17:18:49,947 [P84884/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-04-28 17:18:50,111 [P84884/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 164ms)
+ 2016-04-28 17:19:47,957 [P84884/D2/T14] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-04-27 17:19:47
+ 2016-04-28 17:19:48,233 [P84884/D2/T18] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-04-28 17:19:48,267 [P84884/D2/T18] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 34ms)
+ 2016-04-28 17:20:40,279 [P84884/D2/T7] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username rasmus.pil@live.dk from IP address ::1
+ 2016-04-28 17:20:40,285 [P84884/D2/T7] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: rasmus.pil@live.dk logged in from IP address ::1
+ 2016-04-28 17:20:40,664 [P84884/D2/T22] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-04-28 17:20:40,675 [P84884/D2/T22] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 10ms)
+ 2016-04-28 17:20:40,838 [P84884/D2/T22] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-04-28 17:20:40,870 [P84884/D2/T22] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 31ms)
+ 2016-04-28 17:20:40,958 [P84884/D2/T22] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-04-28 17:20:40,995 [P84884/D2/T22] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 37ms)
+ 2016-04-28 17:20:41,038 [P84884/D2/T22] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-04-28 17:20:41,039 [P84884/D2/T22] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-04-28 17:20:41,055 [P84884/D2/T22] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-04-28 17:20:41,079 [P84884/D2/T22] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 23ms)
+ 2016-04-28 17:23:40,160 [P84884/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-04-28 17:23:40,177 [P84884/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 17ms)
+ 2016-04-28 17:25:10,185 [P84884/D2/T7] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '1079' has been published.
+ 2016-04-28 17:25:14,419 [P84884/D2/T12] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 17:25:14,431 [P84884/D2/T7] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 17:26:06,084 [P84884/D2/T31] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-04-28 17:26:06,085 [P84884/D2/T31] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-04-28 17:26:06,744 [P84884/D2/T30] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-04-28 17:26:45,368 [P84884/D2/T31] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Me' with Id '0' has been published.
+ 2016-04-28 17:26:49,458 [P84884/D2/T28] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 17:26:49,466 [P84884/D2/T14] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 17:28:37,511 [P84884/D2/T23] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Me' with Id '1083' has been published.
+ 2016-04-28 17:28:41,583 [P84884/D2/T51] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 17:28:41,590 [P84884/D2/T6] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 17:40:15,932 [P84884/D2/T83] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: rasmus.pil@live.dk, IP Address: ::1
+ 2016-04-28 20:03:39,867 [P84884/D2/T502] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username rasmus.pil@live.dk from IP address ::1
+ 2016-04-28 20:03:39,867 [P84884/D2/T502] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: rasmus.pil@live.dk logged in from IP address ::1
+ 2016-04-28 20:05:21,501 [P84884/D2/T506] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Me' with Id '1083' has been published.
+ 2016-04-28 20:05:25,613 [P84884/D2/T506] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:05:25,619 [P84884/D2/T51] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:05:44,098 [P84884/D2/T51] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Me' with Id '1083' has been unpublished.
+ 2016-04-28 20:05:48,235 [P84884/D2/T506] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:05:48,243 [P84884/D2/T460] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:05:51,246 [P84884/D2/T479] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '1079' has been published.
+ 2016-04-28 20:05:55,336 [P84884/D2/T480] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:05:55,343 [P84884/D2/T460] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:06:34,462 [P84884/D2/T506] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '1079' has been published.
+ 2016-04-28 20:06:38,538 [P84884/D2/T51] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:06:38,544 [P84884/D2/T463] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:07:45,878 [P84884/D2/T466] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '1079' has been published.
+ 2016-04-28 20:07:49,953 [P84884/D2/T457] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:07:49,961 [P84884/D2/T462] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:08:06,479 [P84884/D2/T480] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '1079' has been published.
+ 2016-04-28 20:08:10,551 [P84884/D2/T457] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:08:10,561 [P84884/D2/T469] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:08:56,728 [P84884/D2/T453] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '1079' has been published.
+ 2016-04-28 20:09:00,815 [P84884/D2/T455] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:09:00,837 [P84884/D2/T455] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:10:17,535 [P84884/D2/T489] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '1079' has been published.
+ 2016-04-28 20:10:21,626 [P84884/D2/T455] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:10:21,640 [P84884/D2/T491] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:12:27,532 [P84884/D2/T455] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '1079' has been published.
+ 2016-04-28 20:12:31,646 [P84884/D2/T489] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:12:31,668 [P84884/D2/T499] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:13:31,334 [P84884/D2/T506] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Umbraco Forms' with Id '1073' has been unpublished.
+ 2016-04-28 20:13:35,374 [P84884/D2/T489] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:13:35,381 [P84884/D2/T486] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:13:35,474 [P84884/D2/T498] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Package repository' with Id '1074' has been unpublished.
+ 2016-04-28 20:13:39,500 [P84884/D2/T455] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:13:39,507 [P84884/D2/T486] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:13:53,868 [P84884/D2/T498] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Me' with Id '1072' has been published.
+ 2016-04-28 20:13:57,932 [P84884/D2/T489] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:13:57,945 [P84884/D2/T489] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:14:18,098 [P84884/D2/T506] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About' with Id '1072' has been published.
+ 2016-04-28 20:14:22,175 [P84884/D2/T506] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:14:22,190 [P84884/D2/T485] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:15:37,683 [P84884/D2/T455] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About' with Id '1072' has been published.
+ 2016-04-28 20:15:41,776 [P84884/D2/T455] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:15:41,787 [P84884/D2/T506] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:16:14,704 [P84884/D2/T455] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About' with Id '1072' has been published.
+ 2016-04-28 20:16:19,042 [P84884/D2/T506] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:16:19,053 [P84884/D2/T506] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:16:36,956 [P84884/D2/T472] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About' with Id '1072' has been published.
+ 2016-04-28 20:16:41,047 [P84884/D2/T460] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:16:41,073 [P84884/D2/T506] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:18:26,717 [P84884/D2/T463] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About' with Id '1072' has been published.
+ 2016-04-28 20:18:30,886 [P84884/D2/T460] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:18:30,894 [P84884/D2/T470] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:19:56,259 [P84884/D2/T497] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About' with Id '1072' has been published.
+ 2016-04-28 20:20:00,344 [P84884/D2/T497] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:20:00,351 [P84884/D2/T497] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:21:30,286 [P84884/D2/T504] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About' with Id '1072' has been published.
+ 2016-04-28 20:21:34,412 [P84884/D2/T464] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:21:34,418 [P84884/D2/T453] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:23:36,070 [P84884/D2/T464] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About' with Id '1072' has been published.
+ 2016-04-28 20:23:40,132 [P84884/D2/T506] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:23:40,142 [P84884/D2/T506] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:25:24,328 [P84884/D2/T514] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About' with Id '1072' has been published.
+ 2016-04-28 20:25:28,398 [P84884/D2/T509] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:25:28,415 [P84884/D2/T509] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:25:58,069 [P84884/D2/T502] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About' with Id '1072' has been published.
+ 2016-04-28 20:26:02,156 [P84884/D2/T502] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:26:02,164 [P84884/D2/T502] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:26:34,770 [P84884/D2/T515] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About' with Id '1072' has been published.
+ 2016-04-28 20:26:38,876 [P84884/D2/T520] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:26:38,895 [P84884/D2/T518] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:26:57,671 [P84884/D2/T524] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About' with Id '1072' has been published.
+ 2016-04-28 20:27:01,766 [P84884/D2/T521] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:27:01,780 [P84884/D2/T528] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:27:20,491 [P84884/D2/T526] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About' with Id '1072' has been published.
+ 2016-04-28 20:27:24,579 [P84884/D2/T524] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:27:24,586 [P84884/D2/T512] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:27:53,906 [P84884/D2/T514] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About' with Id '1072' has been published.
+ 2016-04-28 20:27:58,002 [P84884/D2/T516] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:27:58,010 [P84884/D2/T516] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:30:22,046 [P84884/D2/T515] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About' with Id '1072' has been published.
+ 2016-04-28 20:30:26,129 [P84884/D2/T475] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:30:26,145 [P84884/D2/T479] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:32:46,000 [P84884/D2/T475] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-04-28 20:32:50,117 [P84884/D2/T516] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:32:50,128 [P84884/D2/T516] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:33:29,378 [P84884/D2/T483] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-04-28 20:33:33,504 [P84884/D2/T516] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:33:33,513 [P84884/D2/T516] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:33:53,109 [P84884/D2/T483] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-04-28 20:33:57,258 [P84884/D2/T516] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:33:57,269 [P84884/D2/T52] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:34:13,106 [P84884/D2/T484] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-04-28 20:34:17,204 [P84884/D2/T516] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:34:17,222 [P84884/D2/T52] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:36:41,608 [P84884/D2/T490] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-04-28 20:36:45,688 [P84884/D2/T525] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:36:45,701 [P84884/D2/T525] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:41:28,522 [P84884/D2/T453] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-04-28 20:41:32,595 [P84884/D2/T484] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:41:32,607 [P84884/D2/T484] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:42:39,411 [P84884/D2/T522] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-04-28 20:42:43,499 [P84884/D2/T514] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:42:43,507 [P84884/D2/T514] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:43:06,229 [P84884/D2/T504] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-04-28 20:43:10,312 [P84884/D2/T522] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:43:10,320 [P84884/D2/T495] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:43:26,932 [P84884/D2/T493] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-04-28 20:43:31,078 [P84884/D2/T468] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:43:31,085 [P84884/D2/T22] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-28 20:44:40,652 [P84884/D2/T504] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1063' has been published.
+ 2016-04-28 20:44:44,755 [P84884/D2/T468] INFO  umbraco.content - Save Xml to file...
+ 2016-04-28 20:44:44,764 [P84884/D2/T498] INFO  umbraco.content - Saved Xml to file.
